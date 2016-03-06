@@ -42,6 +42,12 @@ p {
 #link {
     font-family: euphemia;
     color: #fb182c;
+
+}
+
+#link:hover {
+    text-decoration: underline;
+    font-style: italic;
 }
 
 
