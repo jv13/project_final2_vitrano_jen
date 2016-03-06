@@ -1,3 +1,19 @@
+@font-face {
+    font-family: spaceranger;
+    src: url("../fonts/spaceranger.ttf");
+}
+
+@font-face {
+    font-family: aspace;
+    src: url("../fonts/aspace_demo.otf");
+}
+
+@font-face {
+    font-family: euphemia;
+    src: url("../fonts/euphemia.ttf");
+}
+
+
 body {
     background-color: #1d1e4e;
 }
@@ -10,17 +26,21 @@ body {
 
 h2 {
     color: #d4fc43;
+    font-family: spaceranger;
 }
 
 h3 {
     color: #5b93d0;
+    font-family: aspace;
 }
 
 p {
     color: #e6e6e6;
+    font-family: euphemia;
 }
 
-#content a {
+#link {
+    font-family: euphemia;
     color: #fb182c;
 }
 
