@@ -22,3 +22,7 @@ button {
     color: #e6e6e6;
     background-color: #ff7000;
 }
+
+.lists ul li {
+    list-style: none;
+}
