@@ -24,7 +24,9 @@ p {
     color: #fb182c;
 }
 
-/*Begin Button Styling*/
+
+/* Begin Button Styling */
+
 .btn {
     border: none;
     color: #e6e6e6;
@@ -45,7 +47,9 @@ p {
     box-shadow: 0 0 #ab3c3c;
     top: 6px;
 }
-/*End button styling*/
+
+/* End button styling */
+
 
 .lists ul li {
     list-style: none;
