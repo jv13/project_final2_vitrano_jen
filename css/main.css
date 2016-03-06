@@ -24,10 +24,28 @@ p {
     color: #fb182c;
 }
 
-button {
+/*Begin Button Styling*/
+.btn {
+    border: none;
     color: #e6e6e6;
     background-color: #ff7000;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 6px #ab3c3c;
+    padding: 15px 50px;
+    position: relative;
 }
+
+.btn-h:hover {
+    box-shadow: 0 4px #ab3c3c;
+    top: 2px;
+}
+
+.btn-h:active {
+    box-shadow: 0 0 #ab3c3c;
+    top: 6px;
+}
+/*End button styling*/
 
 .lists ul li {
     list-style: none;
