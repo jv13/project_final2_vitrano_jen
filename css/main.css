@@ -50,6 +50,12 @@ body {
     margin-right: auto;
 }
 
+#content {
+    background-color: #404578;
+    width: 100%;
+    height: auto;
+}
+
 @media all and (min-width: 300px) {
     #header {
         padding: 30px;
@@ -105,6 +111,8 @@ body {
     }
 }
 
+/* had to as it would creep up otherwise */
+
 @media all and (min-width: 339px) {
     #darkblue img {
         margin-top: 80px;
@@ -112,10 +120,30 @@ body {
     }
 }
 
-@media all and (min-width: 600px) {
+@media all and (min-width: 716px) {
     #content {
         float: left;
-        width: calc(100% / 2.5);
+        width: calc(100% / 2.2);
+        margin-top: 20px;
+        margin-left: 20px;
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+
+    #logo img {
+        max-width: 75%;
+    }
+
+    #darkblue img {
+        margin-left: 10px;
+    }
+    #swatches img {
+        max-width: 10%;
+        margin-top: 27px;
+        width: 9%;
+        float: left;
+        margin-bottom: 20px;
+
     }
 
     #images img {
@@ -125,12 +153,14 @@ body {
 
     #drink img,
     #game img {
-        width: 28%;
+        width: 25%;
         height: auto;
+        padding-left: 10px;
+        padding-bottom: 10px;
     }
 
     #outside img {
-        width: 56%;
+        width: 48.9%;
     }
 }
 
