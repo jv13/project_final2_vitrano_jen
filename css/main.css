@@ -1,3 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 @font-face {
     font-family: spaceranger;
     src: url("../fonts/spaceranger.ttf");
@@ -20,20 +30,48 @@
 
 body {
     background-color: #1d1e4e;
+    margin: 0;
 }
 
 #header {
+    margin: 0 auto;
     background-image: url("../img/stars.png");
     width: 100%;
     height: auto;
 }
 
+#logo img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media all and (min-width: 100px) {
+    #header {
+      padding: 30px;
+    }
+
+    h2 {
+      margin-top: -1px;
+      margin-bottom: -5px;
+    }
+}
+
+#page {
+    padding: 20px;
+}
+
 h2 {
     color: #d4fc43;
     font-family: spaceranger;
+    font-size: 2em;
 }
 
 h3 {
+    font-size: 1.0em;
     color: #5b93d0;
     font-family: aspace;
 }
@@ -41,6 +79,7 @@ h3 {
 p {
     color: #e6e6e6;
     font-family: euphemia;
+    font-size: .8em;
 }
 
 #link {
