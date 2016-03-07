@@ -107,8 +107,30 @@ body {
 
 @media all and (min-width: 339px) {
     #darkblue img {
-      margin-top: 80px;
-      margin-left: -300px;
+        margin-top: 80px;
+        margin-left: -300px;
+    }
+}
+
+@media all and (min-width: 600px) {
+    #content {
+        float: left;
+        width: calc(100% / 2.5);
+    }
+
+    #images img {
+        float: right;
+        margin: 0;
+    }
+
+    #drink img,
+    #game img {
+        width: 28%;
+        height: auto;
+    }
+
+    #outside img {
+        width: 56%;
     }
 }
 
