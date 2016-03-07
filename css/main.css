@@ -64,7 +64,7 @@ body {
     }
 
     #content a {
-        display: block;
+      display: block;
     }
 
     .btn {
@@ -77,12 +77,6 @@ body {
 
     #content #bottom {
         margin-left: 25px;
-    }
-
-    #images img {
-        width: 100%;
-        height: auto;
-        margin: 0 auto;
     }
 
     #images {
@@ -157,6 +151,11 @@ p {
 
 /* End button styling */
 
+#images img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
 
 .lists ul li {
     list-style: none;
