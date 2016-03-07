@@ -63,11 +63,19 @@ body {
         padding: 10px;
     }
 
+    #content a {
+      display: block;
+    }
+
     .btn {
-        display: block;
-        padding: 10px 30px;
+        display: inline;;
+        padding: 10px 10px;
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+
+    #content #bottom {
+      float: right;
     }
 
     #images img {
@@ -128,12 +136,12 @@ p {
     font-family: euphemia;
     border-radius: 10px;
     box-shadow: 0 6px #ab3c3c;
-    padding: 15px 50px;
+    padding: 15px 40px;
     position: relative;
 }
 
 #top {
-    padding: 15px 58px;
+    padding: 15px 45px;
 }
 
 .btn-h:hover {
