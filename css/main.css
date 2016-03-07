@@ -25,6 +25,7 @@ html {
 
 .site-container {
     max-width: 1200px;
+    margin: auto;
 }
 
 
@@ -49,7 +50,7 @@ body {
     margin-right: auto;
 }
 
-@media all and (min-width: 100px) {
+@media all and (min-width: 300px) {
     #header {
         padding: 30px;
     }
@@ -64,7 +65,7 @@ body {
     }
 
     #content a {
-      display: block;
+        display: block;
     }
 
     .btn {
@@ -79,7 +80,22 @@ body {
         margin-left: 25px;
     }
 
+    #swatches ul li {
+        display: inline;
+    }
+
+    #swatches img {
+        margin-top: 20px;
+        width: 20%;
+        height: auto;
+    }
+
+    #darkblue img {
+        margin-left: -29px;
+    }
+
     #images {
+        margin-top: -10px;
         margin-left: -40px;
         padding: 10px;
     }
@@ -87,8 +103,13 @@ body {
     #images ul li {
         margin-bottom: 10px;
     }
+}
 
-
+@media all and (min-width: 339px) {
+    #darkblue img {
+      margin-top: 80px;
+      margin-left: -300px;
+    }
 }
 
 h2 {
@@ -152,7 +173,7 @@ p {
 /* End button styling */
 
 #images img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
     margin: 0 auto;
 }
