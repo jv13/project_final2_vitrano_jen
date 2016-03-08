@@ -89,17 +89,19 @@ body {
         margin-left: 25px;
     }
 
-    #darkblue img {
-        margin-left: -19px;
-    }
-
     #swatches img {
         display: inline;
         float: left;
         width: 20%;
         height: auto;
         margin-bottom: 35px;
-        margin-top: 15px;
+        margin-top: 40px;
+        margin-left: 2px;
+    }
+
+    #darkblue {
+        margin-top: -63px;
+        margin-left: -5px;
     }
 
     #images {
@@ -111,6 +113,7 @@ body {
         margin-bottom: 10px;
     }
 }
+
 
 /* had to as it would creep up otherwise */
 
