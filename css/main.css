@@ -93,18 +93,24 @@ body {
         display: inline;
     }
 
+    #darkblue img {
+        margin-left: -19px;
+      }
+
+
+    }
+
     #swatches img {
-        margin-top: 100px;
+        float: left;
         width: 20%;
         height: auto;
+        margin-bottom: 35px;
+        margin-top: 15px;
     }
 
-    #darkblue img {
-        margin-left: -20px;
-    }
+
 
     #images {
-        margin-top: -5px;
         margin-left: -40px;
         padding: 10px;
     }
@@ -305,7 +311,7 @@ p {
     max-width: 100%;
     height: auto;
     margin: 0 auto;
-    border: #404578 solid 5px;
+    border: #d4fc43 solid 5px;
 }
 
 .lists ul li {
