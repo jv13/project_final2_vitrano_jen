@@ -150,21 +150,28 @@ body {
         margin-left: 10px;
     }
 
-    #images img {
+    #images ul li img {
         float: right;
-        margin: 0;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+
+    #images #game img {
+        margin-right: 5px;
     }
 
     #drink img,
     #game img {
-        width: 25%;
+        width: 24%;
         height: auto;
-        padding-left: 10px;
-        padding-bottom: 10px;
+    }
+
+    #drink img {
+      margin-right: 20px;
     }
 
     #outside img {
-        width: 48.9%;
+        width: 48.5%;
     }
 }
 
@@ -232,6 +239,7 @@ p {
     max-width: 100%;
     height: auto;
     margin: 0 auto;
+    border: #404578 solid 5px;
 }
 
 .lists ul li {
