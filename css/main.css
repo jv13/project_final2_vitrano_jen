@@ -86,7 +86,11 @@ body {
     }
 
     #content #bottom {
-        margin-left: 25px;
+        margin-left: 10px;
+    }
+
+    #darkblue img {
+              margin-left: -25px;
     }
 
     #swatches img {
@@ -96,10 +100,8 @@ body {
         height: auto;
         margin-bottom: 35px;
         margin-top: 25px;
-        margin-left: 2px;
+        margin-right: 2px;
     }
-
-
 
     #images {
         margin-left: -40px;
