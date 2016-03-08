@@ -56,6 +56,7 @@ body {
     height: auto;
 }
 
+
 @media all and (min-width: 300px) {
     #header {
         padding: 30px;
@@ -167,11 +168,55 @@ body {
     }
 
     #drink img {
-      margin-right: 20px;
+        margin-right: 20px;
     }
 
     #outside img {
         width: 48.5%;
+    }
+}
+
+@media all and (min-width: 1100px) {
+    #content {
+        margin-left: 0;
+    }
+
+    #swatches ul li img {
+        display: block;
+        max-width: 6%;
+        float: left;
+    }
+
+    #darkblue img {
+        margin-left: 25px;
+        margin-top: 23px;
+    }
+
+    #blue img {
+        margin-left: -68px;
+        margin-top: 105px;
+    }
+
+    #red img {
+        margin-left: -68px;
+        margin-top: 185px;
+    }
+
+    #green img {
+        margin-left: -68px;
+        margin-top: 265px;
+    }
+
+    #orange img {
+        margin-left: -68px;
+        margin-top: 345px;
+    }
+
+    #images img {
+        float: right;
+        margin-right: 20px;
+        margin-top: 10px;
+        width: 10%;
     }
 }
 
