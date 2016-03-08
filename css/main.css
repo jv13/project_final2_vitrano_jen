@@ -212,11 +212,26 @@ body {
         margin-top: 345px;
     }
 
-    #images img {
+    #images ul li img {
         float: right;
-        margin-right: 20px;
-        margin-top: 10px;
-        width: 10%;
+        margin-top: -5px;
+        margin-right: -10px;
+        margin-bottom: 10px;
+    }
+
+    #drink img {
+        margin-right: -20px;
+    }
+
+    #drink img,
+    #game img {
+        width: 22.5%;
+        height: auto;
+
+    }
+
+    #outside img {
+        width: 45.4%;
     }
 }
 
