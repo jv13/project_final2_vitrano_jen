@@ -148,12 +148,12 @@ body {
     }
 
     #images #game img {
-        margin-right: 5px;
+        margin-right: 10px;
     }
 
     #drink img,
     #game img {
-        width: 24%;
+        width: 23%;
         height: auto;
     }
 
@@ -162,7 +162,7 @@ body {
     }
 
     #outside img {
-        width: 48.5%;
+        width: 47%;
     }
 }
 
@@ -208,23 +208,20 @@ body {
     #images ul li img {
         margin-top: -5px;
         margin-right: -10px;
-        margin-bottom: 10px;
-    }
-
-    #drink img {
-        margin-right: -20px;
-        margin-top: 90px;
+        margin-bottom: 15px;
     }
 
     #drink img,
     #game img {
-        width: 22.5%;
-        height: auto;
+        width: 22%;
+    }
 
+    #game img {
+      margin-right: 10px;
     }
 
     #outside img {
-        width: 45.4%;
+        width: 45%;
     }
 }
 
