@@ -113,16 +113,6 @@ body {
     }
 }
 
-
-/* had to as it would creep up otherwise */
-
-@media all and (min-width: 339px) {
-    #darkblue img {
-        margin-top: 80px;
-        margin-left: -300px;
-    }
-}
-
 @media all and (min-width: 716px) {
     #content {
         float: left;
