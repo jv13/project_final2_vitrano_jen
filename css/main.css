@@ -154,7 +154,6 @@ body {
     #drink img,
     #game img {
         width: 23%;
-        height: auto;
     }
 
     #drink img {
@@ -300,8 +299,4 @@ p {
 
 .lists ul li {
     list-style: none;
-}
-
-.lists {
-    margin: 0 auto;
 }
