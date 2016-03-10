@@ -296,7 +296,11 @@ p {
     max-width: 100%;
     height: auto;
     margin: 0 auto;
-    border: #d4fc43 solid 5px;
+    border: #5b93d0 solid 2px;
+}
+
+#images img:hover {
+    box-shadow: 0px 0px 2px 3px #d4fc43;
 }
 
 .lists ul li {
