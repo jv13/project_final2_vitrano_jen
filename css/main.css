@@ -271,12 +271,14 @@ p {
     font-family: euphemia;
     border-radius: 10px;
     box-shadow: 0 6px #ab3c3c;
-    padding: 15px 40px;
+    padding: 15px 35px;
     position: relative;
 }
 
+/* Allows for the "Menu" button to be the same width as "arcade" */
+
 #top {
-    padding: 15px 45px;
+    padding: 15px 40px;
 }
 
 .btn-h:hover {
