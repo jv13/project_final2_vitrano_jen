@@ -300,7 +300,7 @@ p {
 }
 
 #images img:hover {
-    box-shadow: 0px 0px 2px 3px #d4fc43;
+    box-shadow: 0 0 2px 3px #d4fc43;
 }
 
 .lists ul li {
