@@ -177,61 +177,35 @@ body {
     }
 
     #swatches img {
-        clear: both;
         max-width: 6%;
-        float: right;
-        margin-right: 555px;
     }
 
     #darkblue img {
-      margin-top: -345px;
-    }
-
-    #blue img {
-      margin-top: -270px;
-    }
-
-    #red img {
-      margin-top: -195px;
-    }
-
-    #green img {
-      margin-top: -120px;
-    }
-
-    #orange img {
-      margin-top: -45px;
-      margin-bottom: 20px;
-    }
-
-
-    /*#darkblue img {
         margin-left: 25px;
         margin-top: 23px;
     }
 
     #blue img {
-        margin-left: -68px;
+        margin-left: -72px;
         margin-top: 105px;
     }
 
     #red img {
-        margin-left: -68px;
+        margin-left: -72px;
         margin-top: 185px;
     }
 
     #green img {
-        margin-left: -68px;
+        margin-left: -72px;
         margin-top: 265px;
     }
 
     #orange img {
-        margin-left: -68px;
+        margin-left: -72px;
         margin-top: 345px;
-    }*/
+    }
 
     #images ul li img {
-        float: right;
         margin-top: -5px;
         margin-right: -10px;
         margin-bottom: 10px;
@@ -239,6 +213,7 @@ body {
 
     #drink img {
         margin-right: -20px;
+        margin-top: 90px;
     }
 
     #drink img,
