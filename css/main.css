@@ -28,7 +28,6 @@ html {
     margin: auto;
 }
 
-
 body {
     background-color: #1d1e4e;
     margin: 0;
@@ -56,6 +55,8 @@ body {
     height: auto;
 }
 
+
+/* Begin mobile responsive */
 
 @media all and (min-width: 300px) {
     #header {
@@ -89,7 +90,7 @@ body {
         margin-left: 10px;
     }
 
-    /* helps to align aliens in mobile version */
+    /* margin left helps to align aliens in mobile version */
 
     #darkblue img {
         margin-left: -25px;
@@ -114,6 +115,9 @@ body {
         margin-bottom: 10px;
     }
 }
+
+
+/* Begin "ipad" size responsive */
 
 @media all and (min-width: 716px) {
     #content {
@@ -164,6 +168,9 @@ body {
         width: 47%;
     }
 }
+
+
+/* Begin desktop size responsive */
 
 @media all and (min-width: 1100px) {
 
@@ -216,13 +223,14 @@ body {
     }
 
     #game img {
-      margin-right: 10px;
+        margin-right: 10px;
     }
 
     #outside img {
         width: 45%;
     }
 }
+
 
 h2 {
     color: #d4fc43;
